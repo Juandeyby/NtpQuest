@@ -1,3 +1,5 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en">
 <head>
@@ -45,7 +47,7 @@
 						</div>
 						<div class="input-field col s4 offset-s4">
 							<input id="password" type="password" class="validate"> <label
-								for="password">ContraseÃ±a</label>
+								for="password">Contraseña</label>
 						</div>
 						<div class="input-field col s4 offset-s4">
 							<a href="#test4">Resgistrarse</a>
@@ -61,8 +63,6 @@
 		</div>
 		<br> <br>
 	</div>
- 
-
 	<!--  Scripts-->
 	<script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
 	<script src="js/materialize.js"></script>
