@@ -1,11 +1,19 @@
 package controller;
 
+import javax.jdo.PersistenceManager;
+import javax.jdo.Query;
+
+import Model.PMF;
+import Model.Empresa;
+
 import java.io.IOException;
+import java.util.List;
 
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
+
 
 @WebServlet(
     name = "HelloAppEngine",
@@ -21,6 +29,8 @@ public class HelloAppEngine extends HttpServlet {
     response.setCharacterEncoding("UTF-8");
 
     response.getWriter().print("Hello App Engine!\r\n");
+    
+    
 
   }
 }
