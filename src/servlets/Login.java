@@ -15,10 +15,10 @@ import model.Empresa;
 import model.EmpresaDao;
 
 @WebServlet("/login")
-public class login extends HttpServlet {
+public class Login extends HttpServlet {
 	private static final long serialVersionUID = 5778940022700850843L;
 
-	public login() {
+	public Login() {
 		super();
 	}
 
@@ -32,17 +32,17 @@ public class login extends HttpServlet {
 		if (name == null || pass == null || name.isEmpty() || pass.isEmpty()) {
 			out.println("<script type=\"text/javascript\">");
 			out.println("alert('Ingrese un usuario y/o password correcto');");
-			out.println("location='index.jsp'");
+			out.println("location='http://localhost:8080/NtpQuest'");
 			out.println("</script>");
 		} else {
 			if (comprobar(name, pass)) {
 				HttpSession sesion = request.getSession(true);
 				sesion.setAttribute("sesion", true);
-				response.sendRedirect("jsp/collection.jsp");
+				response.sendRedirect("collection");
 			} else {
 				out.println("<script type=\"text/javascript\">");
 				out.println("alert('Usuario no registrado');");
-				out.println("location='index.jsp'");
+				out.println("location='http://localhost:8080/NtpQuest'");
 				out.println("</script>");
 			}
 
