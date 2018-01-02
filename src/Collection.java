@@ -1,4 +1,4 @@
-package servlets;
+
 
 import java.io.IOException;
 import javax.servlet.ServletException;
@@ -8,16 +8,16 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 /**
- * Servlet implementation class Registro
+ * Servlet implementation class Collection
  */
-@WebServlet("/registro")
-public class Registro extends HttpServlet {
+@WebServlet("/collection")
+public class Collection extends HttpServlet {
 	private static final long serialVersionUID = 1L;
        
     /**
      * @see HttpServlet#HttpServlet()
      */
-    public Registro() {
+    public Collection() {
         super();
         // TODO Auto-generated constructor stub
     }
@@ -27,7 +27,7 @@ public class Registro extends HttpServlet {
 	 */
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		// TODO Auto-generated method stub
-		getServletContext().getRequestDispatcher("/jsp/registro.jsp").forward(request, response);
+		getServletContext().getRequestDispatcher("/jsp/collection.jsp").forward(request, response);
 	}
 
 	/**
