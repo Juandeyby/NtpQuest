@@ -3,6 +3,8 @@ import java.sql.SQLException;
 
 import javax.servlet.ServletException;
 import javax.servlet.ServletOutputStream;
+import javax.servlet.annotation.WebFilter;
+import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
@@ -10,7 +12,7 @@ import javax.servlet.http.HttpServletResponse;
 import model.Empresa;
 import model.EmpresaDao;
  
- 
+@WebServlet(urlPatterns = { "/home"})
 public class HelloServlet extends HttpServlet {
 	private static final long serialVersionUID = 1L;
 	
