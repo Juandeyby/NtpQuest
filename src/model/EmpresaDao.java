@@ -129,4 +129,23 @@ public class EmpresaDao {
 		}
 		return false;
 	}
+
+	public List<Empresa> login(String name, String pass) throws SQLException {
+		List<Empresa> lEmpresas = new ArrayList<Empresa>();
+		Statement statement = connection.createStatement();
+		String sql = "SELECT * FROM tblempresa where EMP_User = '" + name + "' && EMP_Pass = '"+pass+"'";
+		ResultSet rs = statement.executeQuery(sql);
+		while(rs.next()) {
+			lEmpresas.add(new Empresa(
+					rs.getInt("EMP_Id"),
+					rs.getString("EMP_Nom"),
+					rs.getString("EMP_RutL"),
+					rs.getString("EMP_User"),
+					rs.getString("EMP_Pass"),
+					rs.getString("EMP_NivMr").charAt(0)
+					)
+					);
+		}
+		return lEmpresas;
+	}
 }
