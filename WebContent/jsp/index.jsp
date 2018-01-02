@@ -39,7 +39,7 @@
 		<div class="section">
 
 			<div class="row">
-				<form class="col s12" action="login" method="post">
+				<form class="col s12" action="verificar" method="post">
 					<div class="row">
 						<div class="input-field col s4 offset-s4">
 							<input id="first_name" type="text" name="name" class="validate"> <label

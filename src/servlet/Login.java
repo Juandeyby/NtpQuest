@@ -1,3 +1,4 @@
+package servlet;
 
 
 import java.io.IOException;
@@ -10,14 +11,14 @@ import javax.servlet.http.HttpServletResponse;
 /**
  * Servlet implementation class Collection
  */
-@WebServlet("/collection")
-public class Collection extends HttpServlet {
+@WebServlet("/login")
+public class Login extends HttpServlet {
 	private static final long serialVersionUID = 1L;
        
     /**
      * @see HttpServlet#HttpServlet()
      */
-    public Collection() {
+    public Login() {
         super();
         // TODO Auto-generated constructor stub
     }
@@ -27,7 +28,7 @@ public class Collection extends HttpServlet {
 	 */
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		// TODO Auto-generated method stub
-		getServletContext().getRequestDispatcher("/jsp/collection.jsp").forward(request, response);
+		getServletContext().getRequestDispatcher("/jsp/login.jsp").forward(request, response);
 	}
 
 	/**

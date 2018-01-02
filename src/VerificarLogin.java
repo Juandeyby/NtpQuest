@@ -1,5 +1,3 @@
-
-
 import java.io.IOException;
 import java.util.List;
 
@@ -14,11 +12,11 @@ import javax.servlet.http.HttpSession;
 import model.Empresa;
 import model.EmpresaDao;
 
-@WebServlet("/login")
-public class Login extends HttpServlet {
+@WebServlet("/verificar")
+public class VerificarLogin extends HttpServlet {
 	private static final long serialVersionUID = 5778940022700850843L;
 
-	public Login() {
+	public VerificarLogin() {
 		super();
 	}
 
