@@ -23,10 +23,59 @@
 			<a id="logo-container" href="#" class="brand-logo">NtpQuest</a>
 		</div>
 	</nav>
-	<div class="container">
+	
+	<!-- Page Layout here -->
+	<div class="row">
+		<div class="col s3">
+
+			<ul class="collapsible" data-collapsible="accordion">
+				<li>
+					<div class="collapsible-header orange darken-4">
+						<i class="material-icons">filter_drama</i>Proceso Principal
+					</div>
+					<div class="collapsible-body">
+						<div class="row">
+							<div class="col s12 m12">
+								<ul class="collapsible" data-collapsible="accordion">
+									<li>
+										<div class="collapsible-header orange darken-3">
+											<i class="material-icons">filter_drama</i>Aquisicion
+										</div>
+										<div class="collapsible-body">
+											<div class="row">
+												<div class="col s12 m12">
+													<ul class="collapsible" data-collapsible="accordion">
+														<li>
+															<div class="collapsible-header orange darken-2">
+																<i class="material-icons">filter_drama</i>Adquisicion de un sistema
+															</div>
+															<div class="collapsible-body">
+																<div class="collection">
+																	<a href="#!" class="collection-item">Documento</a>
+																	<a href="#!" class="collection-item">Diagrama de flujo</a>
+																	<a href="#!" class="collection-item">Documento</a>
+																</div>
+															</div>
+														</li>
+													</ul>
+												</div>
+											</div>
+										</div>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</li>
+			</ul>
+
+		</div>
+
+		<div class="col s9">
+			<div class="container">
 		<div class="section">
 			<div class="row">
-				<form class="col s10 offset-s2" action="#">
+				<form class="col s12" action="#">
 					<h5 class="header col s12 light">Documento: <b>Adquisicion de un sistema</b></h5>
 					<br><br>
 					<div class="file-field input-field">
@@ -47,54 +96,9 @@
 		</div>
 		<br> <br>
 	</div>
+		</div>
 
-	<ul id="nav-mobile" class="side-nav fixed"
-		style="transform: translateX(0%);">
-		<li class="logo"><a id="logo-container" href="/"
-			class="brand-logo"> <object id="front-page-logo"
-					type="image/svg+xml" data="img/logo.svg">Your browser does
-					not support SVG</object></a></li>
-		<br>
-		<li class="bold"><a href="about.html"
-			class="waves-effect waves-teal">About</a></li>
-		<li class="bold"><a href="getting-started.html"
-			class="waves-effect waves-teal">Getting Started</a></li>
-		<li class="no-padding">
-			<ul class="collapsible collapsible-accordion">
-				<li class="bold"><a
-					class="collapsible-header waves-effect waves-teal">CSS</a>
-					<div class="collapsible-body">
-						<ul>
-							<li><a href="color.html">Color</a></li>
-						</ul>
-					</div></li>
-				<li class="bold"><a
-					class="collapsible-header waves-effect waves-teal">Components</a>
-					<div class="collapsible-body">
-						<ul>
-							<li><a href="badges.html">Badges</a></li>
-						</ul>
-					</div></li>
-				<li class="bold active"><a
-					class="collapsible-header active waves-effect waves-teal">JavaScript</a>
-					<div class="collapsible-body" style="display: block;">
-						<ul>
-							<li><a href="carousel.html">Carousel</a></li>
-							<li class="active"><a href="collapsible.html">Collapsible</a></li>
-							<li><a href="dialogs.html">Dialogs</a></li>
-							<li><a href="dropdown.html">Dropdown</a></li>
-							<li><a href="feature-discovery.html">FeatureDiscovery</a></li>
-						</ul>
-					</div></li>
-			</ul>
-		</li>
-		<li class="bold"><a href="mobile.html"
-			class="waves-effect waves-teal">Mobile</a></li>
-		<li class="bold"><a href="showcase.html"
-			class="waves-effect waves-teal">Showcase</a></li>
-		<li class="bold"><a href="themes.html"
-			class="waves-effect waves-teal">Themes</a></li>
-	</ul>
+	</div>
 
 
 	<!--  Scripts-->

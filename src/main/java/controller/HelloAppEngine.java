@@ -2,13 +2,12 @@ package controller;
 
 import java.io.IOException;
 
+
 import javax.jdo.PersistenceManager;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
-
-import model.PMF;
 
 
 @WebServlet(
@@ -26,7 +25,7 @@ public class HelloAppEngine extends HttpServlet {
     response.setContentType("text/plain");
     response.setCharacterEncoding("UTF-8");
     
-    final PersistenceManager pm = PMF.get().getPersistenceManager();
+    //final PersistenceManager pm = PMF.get().getPersistenceManager();
 
     response.getWriter().print("Hello App Engine!\r\n");
 
