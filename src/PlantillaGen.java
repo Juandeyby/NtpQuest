@@ -39,7 +39,7 @@ public class PlantillaGen extends HttpServlet {
 
 		
 		System.out.println("datos Generados ....."+descripcion+" "+direccion);
-		CrearDocs cd=new CrearDocs("http://localhost:8080/NtpQuest/img/sample-1.jpg", "C:\\Users\\isiva\\casntp\\workspace\\NtpQuest\\WebContent\\docs\\tesst.docx", "http://localhost:8080/NtpQuest/docs/"+direccion+"_user.docx\"", "Empresa X");
+		CrearDocs cd=new CrearDocs("C:\\Users\\isiva\\NTP\\logo.png", "C:\\Users\\isiva\\NTP\\NtpQuest\\WebContent\\docs\\tesst.docx", "C:\\Users\\isiva\\NTP\\NtpQuest\\WebContent\\docs\\"+direccion+".docx", "Empresa X");
 		try {
 			cd.generarDoc();
 		} catch (Exception e) {

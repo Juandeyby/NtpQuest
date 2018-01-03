@@ -54,8 +54,8 @@
 															</div>
 															<div class="collapsible-body">
 																<div class="collection">
-																	<a href="#!" class="collection-item">Documento</a>
-																	<a href="#!" class="collection-item">Diagrama de flujo</a>
+																	<a href="PlantillaGen?descrip=Proceso Principal-Adquisicion&dirdoc=plantilla_juan_aquisicion" class="collection-item">Documento</a>
+																	<a href="PlantillaGen?descrip=Proceso Principal-Adquisicion&dirdoc=plantilla_juan_aquisicion!" class="collection-item">Diagrama de flujo</a>
 																	<a href="PlantillaGen?descrip=Proceso Principal-Adquisicion&dirdoc=plantilla_juan_aquisicion" class="collection-item">Plantilla</a>
 																</div>
 															</div>
@@ -1119,7 +1119,7 @@
 			</div>
 			<div class="row right">
 				<p>adq_sis.doc</p>
-				<a id="descarga" href="template/<%= request.getAttribute("direccion") %>.pdf" class="waves-effect waves-light btn" download>Descargar</a>
+				<a id="descarga" href="docs/<%= request.getAttribute("direccion") %>.docx" class="waves-effect waves-light btn" download>Descargar</a>
 			</div>
 		</div>
 		<br> <br>
