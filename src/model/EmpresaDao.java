@@ -59,6 +59,25 @@ public class EmpresaDao {
 		return lEmpresas;
 	}
 	
+	public Empresa getByUser(String user) throws SQLException{
+		Empresa nEmpresa = null;
+		Statement statement = connection.createStatement();
+		String sql = "SELECT * FROM tblempresa where EMP_User like '" + user + "'";
+		System.out.println(sql);
+		ResultSet rs = statement.executeQuery(sql);
+		if(rs.next()) {
+			System.out.println("hay algo");
+			nEmpresa = new Empresa(rs.getInt("EMP_Id"),
+					rs.getString("EMP_Nom"),
+					rs.getString("EMP_RutL"),
+					rs.getString("EMP_User"),
+					rs.getString("EMP_Pass"),
+					rs.getString("EMP_NivMr").charAt(0)
+					);
+		}
+		return nEmpresa;
+	}
+	
 	public boolean insert(Empresa nEmpresa) throws SQLException {
 		Statement statement = connection.createStatement();
 		String sql =  "SELECT MAX(EMP_Id) FROM tblempresa";
