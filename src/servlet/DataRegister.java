@@ -39,6 +39,8 @@ public class DataRegister extends HttpServlet {
 
 		System.out.println(enterpriseName);
 		System.out.println(madurityLevel);
+		
+		rtLevel = "logo/"+user+"logo.png";
 		System.out.println(rtLevel);
 
 		Empresa enterprise;
@@ -78,7 +80,7 @@ public class DataRegister extends HttpServlet {
 
 					enterpriseDao.insert(enterprise);
 					System.out.println("Registered Successfully");
-					String valideString = "Enterprise stored";
+					String valideString = user;
 					request.setAttribute("userValide", valideString);
 					// Forward to login
 					session.setAttribute("user", enterprise);
