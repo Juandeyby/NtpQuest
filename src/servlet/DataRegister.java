@@ -40,7 +40,7 @@ public class DataRegister extends HttpServlet {
 		System.out.println(enterpriseName);
 		System.out.println(madurityLevel);
 		
-		rtLevel = "logo/"+user+"logo.png";
+		rtLevel = "logo/logo_"+user+".png";
 		System.out.println(rtLevel);
 
 		Empresa enterprise;

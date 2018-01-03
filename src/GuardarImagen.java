@@ -82,7 +82,7 @@ public class GuardarImagen extends HttpServlet {
 		response.setContentType("text/html");
 	    PrintWriter out = response.getWriter();
 
-	    out.println("<img class=\"materialboxed\" style=\"width:100%; height:100px;\" src=\"logo/logo_juandeyby.png\">");
+	    out.println("<img class=\"materialboxed\" style=\"width:100%\" src=\"logo/logo_juandeyby.png\">");
 	}
 
 }
