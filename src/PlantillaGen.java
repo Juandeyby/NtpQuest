@@ -1,5 +1,6 @@
 
 
+import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
 import java.io.IOException;
@@ -39,7 +40,17 @@ public class PlantillaGen extends HttpServlet {
 
 		
 		System.out.println("datos Generados ....."+descripcion+" "+direccion);
-		CrearDocs cd=new CrearDocs("C:\\Users\\isiva\\NTP\\logo.png", "C:\\Users\\isiva\\NTP\\NtpQuest\\WebContent\\docs\\tesst.docx", "C:\\Users\\isiva\\NTP\\NtpQuest\\WebContent\\docs\\"+direccion+".docx", "Empresa X");
+		String pathDocX = "doc/example.docx";
+		String realPathDocX = getServletContext().getRealPath(pathDocX);
+		
+		String pathLogo = "logo/logo_lidyi.jpg";
+		String realPathLogo = getServletContext().getRealPath(pathLogo);
+		
+		//String pathGen = "doc_gen/" + direccion + "_user.docx";
+		String pathGen = "doc_gen/" + direccion + "_user.docx";
+		String realPathGen = getServletContext().getRealPath(pathGen);
+		System.out.println(realPathGen);
+		CrearDocs cd = new CrearDocs(realPathLogo, realPathDocX, realPathGen, "Empresa X");
 		try {
 			cd.generarDoc();
 		} catch (Exception e) {

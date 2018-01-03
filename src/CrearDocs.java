@@ -27,14 +27,16 @@ public class CrearDocs {
 	public XWPFDocument doc;
 	
 	
-	public CrearDocs(String imagen,String nameDocIn,String nameDocOut,String nameEmpresa) throws IOException {
+	public CrearDocs(String imagen, String nameDocIn, String nameDocOut, String nameEmpresa) throws IOException {
 		this.imagen=imagen;
 		this.nameDocIn=nameDocIn;
 		this.nameDocOut=nameDocOut;
 		this.nameEmpresa=nameEmpresa;
 		try {
-			this.in=new FileInputStream(this.nameDocIn);
-			this.doc=new XWPFDocument(in);
+			
+			this.in = new FileInputStream(this.nameDocIn);
+			this.doc = new XWPFDocument(in);
+			
 		} catch (FileNotFoundException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
@@ -43,11 +45,11 @@ public class CrearDocs {
 		
 	}
 	
-	public static void main(String arr[]) throws IOException {
-		CrearDocs cd=new CrearDocs("C:\\\\Users\\\\isiva\\\\casntp\\\\workspace\\\\NtpQuest\\\\WebContent\\img\\sample-1.jpg", "C:\\Users\\isiva\\casntp\\workspace\\NtpQuest\\WebContent\\docs\\tesst.docx", "user.docx", "Empresa X");
-		cd.generarDoc();
+	//public static void main(String arr[]) throws IOException {
+	//	CrearDocs cd=new CrearDocs("C:\\\\Users\\\\isiva\\\\casntp\\\\workspace\\\\NtpQuest\\\\WebContent\\img\\sample-1.jpg", "C:\\Users\\isiva\\casntp\\workspace\\NtpQuest\\WebContent\\docs\\tesst.docx", "user.docx", "Empresa X");
+	//	cd.generarDoc();
 		
-	}
+	//}
 	public void generarDoc() {
 		try {
 			
@@ -59,7 +61,6 @@ public class CrearDocs {
 			CTSectPr sectPr = doc.getDocument().getBody().addNewSectPr();
 			XWPFHeaderFooterPolicy headerFooterPolicy = new XWPFHeaderFooterPolicy(doc, sectPr);
 			XWPFHeader header = headerFooterPolicy.createHeader(XWPFHeaderFooterPolicy.DEFAULT);
-
 			paragraph = header.createParagraph();
 			paragraph.setAlignment(ParagraphAlignment.LEFT);
 			run = paragraph.createRun();  

@@ -1203,7 +1203,7 @@
 							<form class="col s3" action="guardarImagen"
 								enctype="multipart/form-data" id="fileUploadForm" method="post">
 								<input type="file" name="uploadFile" accept="image/png, .jpeg, .jpg, image/gif"/> <br />
-									type="submit" id="btnSubmit" value="Subir Logo" /> <br />
+								<br /> <input type="submit"  id="btnSubmit" value="Subir Logo" />
 								<br />
 								<div id="result">
 								<img class="materialboxed" style="width:100%" src="logo/logo_juandeyby.png">
