@@ -67,6 +67,13 @@ public class EmpresaDao {
 			nEmpresa.setEMP_Id(rs.getInt(1) + 1);
 		}
 		
+		sql =  "SELECT EMP_User FROM tblempresa WHERE EMP_Nom LIKE '" + nEmpresa.getEMP_User() + "'";
+		rs = statement.executeQuery(sql);
+		if(rs.next()) {
+			System.out.println("Nombre de usuario ya existe");
+			return false;
+		}
+		
 		sql = "INSERT INTO tblempresa (" +
 				"EMP_Id, " + 
 				"EMP_Nom, " + 
@@ -95,7 +102,16 @@ public class EmpresaDao {
 	public boolean update(Empresa uEmpresa, int eMP_Id) throws SQLException {
 		if(getById(eMP_Id) != null) {
 			Statement statement = connection.createStatement();
-			String sql = "UPDATE tblempresa SET " + 
+			String sql =  "SELECT * FROM tblempresa WHERE EMP_User LIKE '" + uEmpresa.getEMP_User() + "'";
+			ResultSet rs = statement.executeQuery(sql);
+			if(rs.next()) {
+				if(rs.getInt("EMP_Id") != eMP_Id) {
+					System.out.println("Nombre de usuario ya existe");
+					return false;
+				}
+			}
+			
+			sql = "UPDATE tblempresa SET " + 
 				"EMP_Nom = '" + uEmpresa.getEMP_Nom() + "', " +
 				"EMP_RutL = '" + uEmpresa.getEMP_RutL() + "', " +
 				"EMP_User = '" + uEmpresa.getEMP_User() + "', " +
