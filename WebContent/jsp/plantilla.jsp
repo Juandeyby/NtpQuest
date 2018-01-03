@@ -56,7 +56,7 @@
 																<div class="collection">
 																	<a href="#!" class="collection-item">Documento</a>
 																	<a href="#!" class="collection-item">Diagrama de flujo</a>
-																	<a href="plantilla" class="collection-item">Plantilla</a>
+																	<a href="PlantillaGen?descrip=Proceso Principal-Adquisicion&dirdoc=plantilla_juan_aquisicion" class="collection-item">Plantilla</a>
 																</div>
 															</div>
 														</li>
@@ -1112,14 +1112,14 @@
 		<div class="section">
 			<div class="row">
 				<form class="col s12" action="#">
-					<h5 class="header col s12 light">Plantilla: <b>Adquisicion de un sistema</b></h5>
+					<h5 class="header col s12 light">Plantilla: <b id="titulo"><%= request.getAttribute("descripcion") %></b></h5>
 					<br><br>
-					<iframe src="template/plantilla_juandeyby_aquisicion_sistema.pdf" style="width:100%; height:450px;" frameborder="0"> </iframe>
+					<iframe id="vista" src="template/<%= request.getAttribute("direccion") %>.pdf" style="width:100%; height:450px;" frameborder="0"> </iframe>
 				</form>
 			</div>
 			<div class="row right">
 				<p>adq_sis.doc</p>
-				<a class="waves-effect waves-light btn">Descargar</a>
+				<a id="descarga" href="template/<%= request.getAttribute("direccion") %>.pdf" class="waves-effect waves-light btn" download>Descargar</a>
 			</div>
 		</div>
 		<br> <br>
