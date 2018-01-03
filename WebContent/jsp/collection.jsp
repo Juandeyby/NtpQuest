@@ -61,7 +61,7 @@
 															</div>
 															<div class="collapsible-body">
 																<div class="collection">
-																	<a href="#!" class="collection-item">Documento</a>
+																	<a href="documento" class="collection-item">Documento</a>
 																	<a href="#!" class="collection-item">Diagrama de flujo</a>
 																	<a href="PlantillaGen?descrip=Proceso Principal-Adquisicion&dirdoc=plantilla_aquisicion" class="collection-item">Plantilla</a>
 																</div>
