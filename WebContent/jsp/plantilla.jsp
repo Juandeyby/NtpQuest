@@ -56,7 +56,7 @@
 																<div class="collection">
 																	<a href="#!" class="collection-item">Documento</a>
 																	<a href="#!" class="collection-item">Diagrama de flujo</a>
-																	<a href="#!" class="collection-item">Documento</a>
+																	<a href="plantilla" class="collection-item">Plantilla</a>
 																</div>
 															</div>
 														</li>
@@ -1114,7 +1114,7 @@
 				<form class="col s12" action="#">
 					<h5 class="header col s12 light">Plantilla: <b>Adquisicion de un sistema</b></h5>
 					<br><br>
-					<iframe src="http://docs.google.com/gview?url=http://www.enlataberna.com/lib_lin/Biblia-satanica.pdf&embedded=true" style="width:100%; height:450px;" frameborder="0"> </iframe>
+					<iframe src="template/plantilla_juandeyby_aquisicion_sistema.pdf" style="width:100%; height:450px;" frameborder="0"> </iframe>
 				</form>
 			</div>
 			<div class="row right">
