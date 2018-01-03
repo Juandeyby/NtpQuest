@@ -61,8 +61,8 @@
 															</div>
 															<div class="collapsible-body">
 																<div class="collection">
-																	<a href="PlantillaGen?descrip=Proceso Principal-Adquisicion&dirdoc=plantilla_aquisicion" class="collection-item">Documento</a>
-																	<a href="PlantillaGen?descrip=Proceso Principal-Adquisicion&dirdoc=plantilla_aquisicion!" class="collection-item">Diagrama de flujo</a>
+																	<a href="#!" class="collection-item">Documento</a>
+																	<a href="#!" class="collection-item">Diagrama de flujo</a>
 																	<a href="PlantillaGen?descrip=Proceso Principal-Adquisicion&dirdoc=plantilla_aquisicion" class="collection-item">Plantilla</a>
 																</div>
 															</div>
@@ -74,9 +74,9 @@
 															</div>
 															<div class="collapsible-body">
 																<div class="collection">
-																	<a href="#!" class="collection-item">Documento</a> <a
-																		href="#!" class="collection-item">Diagrama de
-																		flujo</a> <a href="#!" class="collection-item">Documento</a>
+																	<a href="#!" class="collection-item">Documento</a> 
+																	<a href="#!" class="collection-item">Diagrama deflujo</a> 
+																	<a href="PlantillaGen?descrip=Proceso Principal-Adquisicion&dirdoc=plantilla_lanzamiento" class="collection-item">Documento</a>
 																</div>
 															</div>
 														</li>
@@ -87,9 +87,9 @@
 															</div>
 															<div class="collapsible-body">
 																<div class="collection">
-																	<a href="#!" class="collection-item">Documento</a> <a
-																		href="#!" class="collection-item">Diagrama de
-																		flujo</a> <a href="#!" class="collection-item">Documento</a>
+																	<a href="#!" class="collection-item">Documento</a> 
+																	<a href="#!" class="collection-item">Diagrama deflujo</a> 
+																	<a href="PlantillaGen?descrip=Proceso Principal-Adquisicion&dirdoc=plantilla_contrato" class="collection-item">Documento</a>
 																</div>
 															</div>
 														</li>
@@ -114,9 +114,9 @@
 															</div>
 															<div class="collapsible-body">
 																<div class="collection">
-																	<a href="#!" class="collection-item">Documento</a> <a
-																		href="#!" class="collection-item">Diagrama de
-																		flujo</a> <a href="#!" class="collection-item">Documento</a>
+																	<a href="#!" class="collection-item">Documento</a>
+																	<a href="#!" class="collection-item">Diagrama de flujo</a> 
+																	<a href="PlantillaGen?descrip=Proceso Principal-Adquisicion&dirdoc=plantilla_peticion" class="collection-item">Documento</a>
 																</div>
 															</div>
 														</li>
@@ -127,9 +127,9 @@
 															</div>
 															<div class="collapsible-body">
 																<div class="collection">
-																	<a href="#!" class="collection-item">Documento</a> <a
-																		href="#!" class="collection-item">Diagrama de
-																		flujo</a> <a href="#!" class="collection-item">Documento</a>
+																	<a href="#!" class="collection-item">Documento</a> 
+																	<a href="#!" class="collection-item">Diagrama de flujo</a> 
+																	<a href="PlantillaGen?descrip=Proceso Principal-Adquisicion&dirdoc=plantilla_planificacion" class="collection-item">Documento</a>
 																</div>
 															</div>
 														</li>
@@ -140,9 +140,9 @@
 															</div>
 															<div class="collapsible-body">
 																<div class="collection">
-																	<a href="#!" class="collection-item">Documento</a> <a
-																		href="#!" class="collection-item">Diagrama de
-																		flujo</a> <a href="#!" class="collection-item">Documento</a>
+																	<a href="#!" class="collection-item">Documento</a> 
+																	<a href="#!" class="collection-item">Diagrama de flujo</a>
+																	<a href="PlantillaGen?descrip=Proceso Principal-Adquisicion&dirdoc=plantilla_planificacion" class="collection-item">Plantilla</a>
 																</div>
 															</div>
 														</li>
@@ -153,9 +153,9 @@
 															</div>
 															<div class="collapsible-body">
 																<div class="collection">
-																	<a href="#!" class="collection-item">Documento</a> <a
-																		href="#!" class="collection-item">Diagrama de
-																		flujo</a> <a href="#!" class="collection-item">Documento</a>
+																	<a href="#!" class="collection-item">Documento</a> 
+																	<a href="#!" class="collection-item">Diagrama de flujo</a>
+																	<a href="PlantillaGen?descrip=Proceso Principal-Adquisicion&dirdoc=plantilla_acciones" class="collection-item">Plantilla</a>
 																</div>
 															</div>
 														</li>
@@ -168,7 +168,7 @@
 																<div class="collection">
 																	<a href="#!" class="collection-item">Documento</a> <a
 																		href="#!" class="collection-item">Diagrama de
-																		flujo</a> <a href="#!" class="collection-item">Documento</a>
+																		flujo</a> <a href="PlantillaGen?descrip=Proceso Principal-Adquisicion&dirdoc=plantilla_entrega" class="collection-item">Plantilla</a>
 																</div>
 															</div>
 														</li>
@@ -196,7 +196,7 @@
 																<div class="collection">
 																	<a href="#!" class="collection-item">Documento</a> <a
 																		href="#!" class="collection-item">Diagrama de
-																		flujo</a> <a href="#!" class="collection-item">Documento</a>
+																		flujo</a> <a href="PlantillaGen?descrip=Proceso Principal-Adquisicion&dirdoc=plantilla_recepcion" class="collection-item">Plantilla</a>
 																</div>
 															</div>
 														</li>
@@ -209,7 +209,7 @@
 																<div class="collection">
 																	<a href="#!" class="collection-item">Documento</a> <a
 																		href="#!" class="collection-item">Diagrama de
-																		flujo</a> <a href="#!" class="collection-item">Documento</a>
+																		flujo</a> <a href="PlantillaGen?descrip=Proceso Principal-Adquisicion&dirdoc=plantilla_elaboraccionPlan" class="collection-item">Plantilla</a>
 																</div>
 															</div>
 														</li>
@@ -222,7 +222,7 @@
 																<div class="collection">
 																	<a href="#!" class="collection-item">Documento</a> <a
 																		href="#!" class="collection-item">Diagrama de
-																		flujo</a> <a href="#!" class="collection-item">Documento</a>
+																		flujo</a> <a href="PlantillaGen?descrip=Proceso Principal-Adquisicion&dirdoc=plantilla_educcion" class="collection-item">Plantilla</a>
 																</div>
 															</div>
 														</li>
@@ -235,7 +235,7 @@
 																<div class="collection">
 																	<a href="#!" class="collection-item">Documento</a> <a
 																		href="#!" class="collection-item">Diagrama de
-																		flujo</a> <a href="#!" class="collection-item">Documento</a>
+																		flujo</a> <a href="PlantillaGen?descrip=Proceso Principal-Adquisicion&dirdoc=plantilla_elicitacion" class="collection-item">Plantilla</a>
 																</div>
 															</div>
 														</li>
@@ -248,7 +248,7 @@
 																<div class="collection">
 																	<a href="#!" class="collection-item">Documento</a> <a
 																		href="#!" class="collection-item">Diagrama de
-																		flujo</a> <a href="#!" class="collection-item">Documento</a>
+																		flujo</a> <a href="PlantillaGen?descrip=Proceso Principal-Adquisicion&dirdoc=plantilla_especificacion" class="collection-item">Plantilla</a>
 																</div>
 															</div>
 														</li>
@@ -261,7 +261,7 @@
 																<div class="collection">
 																	<a href="#!" class="collection-item">Documento</a> <a
 																		href="#!" class="collection-item">Diagrama de
-																		flujo</a> <a href="#!" class="collection-item">Documento</a>
+																		flujo</a> <a href="PlantillaGen?descrip=Proceso Principal-Adquisicion&dirdoc=plantilla_actualizar" class="collection-item">Plantilla</a>
 																</div>
 															</div>
 														</li>
@@ -274,7 +274,7 @@
 																<div class="collection">
 																	<a href="#!" class="collection-item">Documento</a> <a
 																		href="#!" class="collection-item">Diagrama de
-																		flujo</a> <a href="#!" class="collection-item">Documento</a>
+																		flujo</a> <a href="PlantillaGen?descrip=Proceso Principal-Adquisicion&dirdoc=plantilla_validacion" class="collection-item">Plantilla</a>
 																</div>
 															</div>
 														</li>
@@ -287,7 +287,7 @@
 																<div class="collection">
 																	<a href="#!" class="collection-item">Documento</a> <a
 																		href="#!" class="collection-item">Diagrama de
-																		flujo</a> <a href="#!" class="collection-item">Documento</a>
+																		flujo</a> <a href="PlantillaGen?descrip=Proceso Principal-Adquisicion&dirdoc=plantilla_diseno" class="collection-item">Plantilla</a>
 																</div>
 															</div>
 														</li>
@@ -300,7 +300,7 @@
 																<div class="collection">
 																	<a href="#!" class="collection-item">Documento</a> <a
 																		href="#!" class="collection-item">Diagrama de
-																		flujo</a> <a href="#!" class="collection-item">Documento</a>
+																		flujo</a> <a href="PlantillaGen?descrip=Proceso Principal-Adquisicion&dirdoc=plantilla_construccion" class="collection-item">Plantilla</a>
 																</div>
 															</div>
 														</li>
@@ -313,7 +313,7 @@
 																<div class="collection">
 																	<a href="#!" class="collection-item">Documento</a> <a
 																		href="#!" class="collection-item">Diagrama de
-																		flujo</a> <a href="#!" class="collection-item">Documento</a>
+																		flujo</a> <a href="PlantillaGen?descrip=Proceso Principal-Adquisicion&dirdoc=plantilla_integracion" class="collection-item">Plantilla</a>
 																</div>
 															</div>
 														</li>
@@ -326,7 +326,7 @@
 																<div class="collection">
 																	<a href="#!" class="collection-item">Documento</a> <a
 																		href="#!" class="collection-item">Diagrama de
-																		flujo</a> <a href="#!" class="collection-item">Documento</a>
+																		flujo</a> <a href="PlantillaGen?descrip=Proceso Principal-Adquisicion&dirdoc=plantilla_elaboracionPruebas" class="collection-item">Plantilla</a>
 																</div>
 															</div>
 														</li>
@@ -339,7 +339,7 @@
 																<div class="collection">
 																	<a href="#!" class="collection-item">Documento</a> <a
 																		href="#!" class="collection-item">Diagrama de
-																		flujo</a> <a href="#!" class="collection-item">Documento</a>
+																		flujo</a><a href="PlantillaGen?descrip=Proceso Principal-Adquisicion&dirdoc=plantilla_ejecucionPruebas" class="collection-item">Plantilla</a>
 																</div>
 															</div>
 														</li>
@@ -352,7 +352,7 @@
 																<div class="collection">
 																	<a href="#!" class="collection-item">Documento</a> <a
 																		href="#!" class="collection-item">Diagrama de
-																		flujo</a> <a href="#!" class="collection-item">Documento</a>
+																		flujo</a> <a href="PlantillaGen?descrip=Proceso Principal-Adquisicion&dirdoc=plantilla_instalacion" class="collection-item">Plantilla</a>
 																</div>
 															</div>
 														</li>
@@ -365,7 +365,7 @@
 																<div class="collection">
 																	<a href="#!" class="collection-item">Documento</a> <a
 																		href="#!" class="collection-item">Diagrama de
-																		flujo</a> <a href="#!" class="collection-item">Documento</a>
+																		flujo</a> <a href="PlantillaGen?descrip=Proceso Principal-Adquisicion&dirdoc=plantilla_elaboracionManuales" class="collection-item">Plantilla</a>
 																</div>
 															</div>
 														</li>
@@ -378,7 +378,7 @@
 																<div class="collection">
 																	<a href="#!" class="collection-item">Documento</a> <a
 																		href="#!" class="collection-item">Diagrama de
-																		flujo</a> <a href="#!" class="collection-item">Documento</a>
+																		flujo</a> <a href="PlantillaGen?descrip=Proceso Principal-Adquisicion&dirdoc=plantilla_capacitacion" class="collection-item">Plantilla</a>
 																</div>
 															</div>
 														</li>
@@ -406,7 +406,7 @@
 																<div class="collection">
 																	<a href="#!" class="collection-item">Documento</a> <a
 																		href="#!" class="collection-item">Diagrama de
-																		flujo</a> <a href="#!" class="collection-item">Documento</a>
+																		flujo</a> <a href="PlantillaGen?descrip=Proceso Principal-Adquisicion&dirdoc=plantilla_elaboracionOperacion" class="collection-item">Plantilla</a>
 																</div>
 															</div>
 														</li>
@@ -419,7 +419,7 @@
 																<div class="collection">
 																	<a href="#!" class="collection-item">Documento</a> <a
 																		href="#!" class="collection-item">Diagrama de
-																		flujo</a> <a href="#!" class="collection-item">Documento</a>
+																		flujo</a> <a href="PlantillaGen?descrip=Proceso Principal-Adquisicion&dirdoc=plantilla_pruebasOperacion" class="collection-item">Plantilla</a>
 																</div>
 															</div>
 														</li>
@@ -432,7 +432,7 @@
 																<div class="collection">
 																	<a href="#!" class="collection-item">Documento</a> <a
 																		href="#!" class="collection-item">Diagrama de
-																		flujo</a> <a href="#!" class="collection-item">Documento</a>
+																		flujo</a> <a href="PlantillaGen?descrip=Proceso Principal-Adquisicion&dirdoc=plantilla_despliegueOperacion" class="collection-item">Plantilla</a>
 																</div>
 															</div>
 														</li>
@@ -445,7 +445,7 @@
 																<div class="collection">
 																	<a href="#!" class="collection-item">Documento</a> <a
 																		href="#!" class="collection-item">Diagrama de
-																		flujo</a> <a href="#!" class="collection-item">Documento</a>
+																		flujo</a> <a href="PlantillaGen?descrip=Proceso Principal-Adquisicion&dirdoc=plantilla_"creacionAcceso class="collection-item">Plantilla</a>
 																</div>
 															</div>
 														</li>
@@ -458,7 +458,7 @@
 																<div class="collection">
 																	<a href="#!" class="collection-item">Documento</a> <a
 																		href="#!" class="collection-item">Diagrama de
-																		flujo</a> <a href="#!" class="collection-item">Documento</a>
+																		<a href="PlantillaGen?descrip=Proceso Principal-Adquisicion&dirdoc=plantilla_AtencionUsuario" class="collection-item">Plantilla</a>
 																</div>
 															</div>
 														</li>
@@ -486,7 +486,7 @@
 																<div class="collection">
 																	<a href="#!" class="collection-item">Documento</a> <a
 																		href="#!" class="collection-item">Diagrama de
-																		flujo</a> <a href="#!" class="collection-item">Documento</a>
+																		flujo</a> <a href="PlantillaGen?descrip=Proceso Principal-Adquisicion&dirdoc=plantilla_implementacionProcesos" class="collection-item">Plantilla</a>
 																</div>
 															</div>
 														</li>
@@ -499,7 +499,7 @@
 																<div class="collection">
 																	<a href="#!" class="collection-item">Documento</a> <a
 																		href="#!" class="collection-item">Diagrama de
-																		flujo</a> <a href="#!" class="collection-item">Documento</a>
+																		flujo</a> <a href="PlantillaGen?descrip=Proceso Principal-Adquisicion&dirdoc=plantilla_analisis" class="collection-item">Plantilla</a>
 																</div>
 															</div>
 														</li>
@@ -512,7 +512,7 @@
 																<div class="collection">
 																	<a href="#!" class="collection-item">Documento</a> <a
 																		href="#!" class="collection-item">Diagrama de
-																		flujo</a> <a href="#!" class="collection-item">Documento</a>
+																		flujo</a> <a href="PlantillaGen?descrip=Proceso Principal-Adquisicion&dirdoc=plantilla_implementacionModificaciones" class="collection-item">Plantilla</a>
 																</div>
 															</div>
 														</li>
@@ -525,7 +525,7 @@
 																<div class="collection">
 																	<a href="#!" class="collection-item">Documento</a> <a
 																		href="#!" class="collection-item">Diagrama de
-																		flujo</a> <a href="#!" class="collection-item">Documento</a>
+																		flujo</a> <a href="PlantillaGen?descrip=Proceso Principal-Adquisicion&dirdoc=plantilla_aceptacionMantenimiento" class="collection-item">Plantilla</a>
 																</div>
 															</div>
 														</li>
@@ -537,7 +537,7 @@
 																<div class="collection">
 																	<a href="#!" class="collection-item">Documento</a> <a
 																		href="#!" class="collection-item">Diagrama de
-																		flujo</a> <a href="#!" class="collection-item">Documento</a>
+																		flujo</a> <a href="PlantillaGen?descrip=Proceso Principal-Adquisicion&dirdoc=plantilla_Migracion" class="collection-item">Plantilla</a>
 																</div>
 															</div>
 														</li>
@@ -550,7 +550,7 @@
 																<div class="collection">
 																	<a href="#!" class="collection-item">Documento</a> <a
 																		href="#!" class="collection-item">Diagrama de
-																		flujo</a> <a href="#!" class="collection-item">Documento</a>
+																		flujo</a> <a href="PlantillaGen?descrip=Proceso Principal-Adquisicion&dirdoc=plantilla_retiradaSoft" class="collection-item">Plantilla</a>
 																</div>
 															</div>
 														</li>
@@ -595,7 +595,7 @@
 																<div class="collection">
 																	<a href="#!" class="collection-item">Documento</a> <a
 																		href="#!" class="collection-item">Diagrama de
-																		flujo</a> <a href="#!" class="collection-item">Documento</a>
+																		flujo</a> <a href="PlantillaGen?descrip=Proceso Principal-Adquisicion&dirdoc=plantilla_ImplementacionProceso" class="collection-item">Plantilla</a>
 																</div>
 															</div>
 														</li>
@@ -608,7 +608,7 @@
 																<div class="collection">
 																	<a href="#!" class="collection-item">Documento</a> <a
 																		href="#!" class="collection-item">Diagrama de
-																		flujo</a> <a href="#!" class="collection-item">Documento</a>
+																		flujo</a> <a href="PlantillaGen?descrip=Proceso Principal-Adquisicion&dirdoc=plantilla_disenoDesarrollo" class="collection-item">Plantilla</a>
 																</div>
 															</div>
 														</li>
@@ -620,7 +620,7 @@
 																<div class="collection">
 																	<a href="#!" class="collection-item">Documento</a> <a
 																		href="#!" class="collection-item">Diagrama de
-																		flujo</a> <a href="#!" class="collection-item">Documento</a>
+																		flujo</a> <a href="PlantillaGen?descrip=Proceso Principal-Adquisicion&dirdoc=plantilla_produccion" class="collection-item">Plantilla</a>
 																</div>
 															</div>
 														</li>
@@ -632,7 +632,7 @@
 																<div class="collection">
 																	<a href="#!" class="collection-item">Documento</a> <a
 																		href="#!" class="collection-item">Diagrama de
-																		flujo</a> <a href="#!" class="collection-item">Documento</a>
+																		flujo</a><a href="PlantillaGen?descrip=Proceso Principal-Adquisicion&dirdoc=plantilla_mantenimiento" class="collection-item">Plantilla</a>
 																</div>
 															</div>
 														</li>
@@ -660,7 +660,7 @@
 																<div class="collection">
 																	<a href="#!" class="collection-item">Documento</a> <a
 																		href="#!" class="collection-item">Diagrama de
-																		flujo</a> <a href="#!" class="collection-item">Documento</a>
+																		flujo</a> <a href="PlantillaGen?descrip=Proceso Principal-Adquisicion&dirdoc=plantilla_implemetacionProceso" class="collection-item">Plantilla</a>
 																</div>
 															</div>
 														</li>
@@ -673,7 +673,7 @@
 																<div class="collection">
 																	<a href="#!" class="collection-item">Documento</a> <a
 																		href="#!" class="collection-item">Diagrama de
-																		flujo</a> <a href="#!" class="collection-item">Documento</a>
+																		flujo</a><a href="PlantillaGen?descrip=Proceso Principal-Adquisicion&dirdoc=plantilla_identificacion" class="collection-item">Plantilla</a>
 																</div>
 															</div>
 														</li>
@@ -686,7 +686,7 @@
 																<div class="collection">
 																	<a href="#!" class="collection-item">Documento</a> <a
 																		href="#!" class="collection-item">Diagrama de
-																		flujo</a> <a href="#!" class="collection-item">Documento</a>
+																		flujo</a> <a href="PlantillaGen?descrip=Proceso Principal-Adquisicion&dirdoc=plantilla_controlConfig" class="collection-item">Plantilla</a>
 																</div>
 															</div>
 														</li>
@@ -699,7 +699,7 @@
 																<div class="collection">
 																	<a href="#!" class="collection-item">Documento</a> <a
 																		href="#!" class="collection-item">Diagrama de
-																		flujo</a> <a href="#!" class="collection-item">Documento</a>
+																		flujo</a> <a href="PlantillaGen?descrip=Proceso Principal-Adquisicion&dirdoc=plantilla_determinacion" class="collection-item">Plantilla</a>
 																</div>
 															</div>
 														</li>
@@ -712,7 +712,7 @@
 																<div class="collection">
 																	<a href="#!" class="collection-item">Documento</a> <a
 																		href="#!" class="collection-item">Diagrama de
-																		flujo</a> <a href="#!" class="collection-item">Documento</a>
+																		flujo</a> <a href="PlantillaGen?descrip=Proceso Principal-Adquisicion&dirdoc=plantilla_evaluacionConfig" class="collection-item">Plantilla</a>
 																</div>
 															</div>
 														</li>
@@ -725,7 +725,7 @@
 																<div class="collection">
 																	<a href="#!" class="collection-item">Documento</a> <a
 																		href="#!" class="collection-item">Diagrama de
-																		flujo</a> <a href="#!" class="collection-item">Documento</a>
+																		flujo</a> <a href="PlantillaGen?descrip=Proceso Principal-Adquisicion&dirdoc=plantilla_getionRelease" class="collection-item">Plantilla</a>
 																</div>
 															</div>
 														</li>
@@ -753,7 +753,7 @@
 																<div class="collection">
 																	<a href="#!" class="collection-item">Documento</a> <a
 																		href="#!" class="collection-item">Diagrama de
-																		flujo</a> <a href="#!" class="collection-item">Documento</a>
+																		flujo</a> <a href="PlantillaGen?descrip=Proceso Principal-Adquisicion&dirdoc=plantilla_implementacionproces" class="collection-item">Plantilla</a>
 																</div>
 															</div>
 														</li>
@@ -765,7 +765,7 @@
 																<div class="collection">
 																	<a href="#!" class="collection-item">Documento</a> <a
 																		href="#!" class="collection-item">Diagrama de
-																		flujo</a> <a href="#!" class="collection-item">Documento</a>
+																		flujo</a> <<a href="PlantillaGen?descrip=Proceso Principal-Adquisicion&dirdoc=plantilla_verificacion" class="collection-item">Plantilla</a>
 																</div>
 															</div>
 														</li>
@@ -793,7 +793,7 @@
 																<div class="collection">
 																	<a href="#!" class="collection-item">Documento</a> <a
 																		href="#!" class="collection-item">Diagrama de
-																		flujo</a> <a href="#!" class="collection-item">Documento</a>
+																		flujo</a> <a href="PlantillaGen?descrip=Proceso Principal-Adquisicion&dirdoc=plantilla_implemntacionProces" class="collection-item">Plantilla</a>
 																</div>
 															</div>
 														</li>
@@ -805,7 +805,7 @@
 																<div class="collection">
 																	<a href="#!" class="collection-item">Documento</a> <a
 																		href="#!" class="collection-item">Diagrama de
-																		flujo</a> <a href="#!" class="collection-item">Documento</a>
+																		flujo</a> <a href="PlantillaGen?descrip=Proceso Principal-Adquisicion&dirdoc=plantilla_vaidacion" class="collection-item">Plantilla</a>
 																</div>
 															</div>
 														</li>
@@ -833,7 +833,7 @@
 																<div class="collection">
 																	<a href="#!" class="collection-item">Documento</a> <a
 																		href="#!" class="collection-item">Diagrama de
-																		flujo</a> <a href="#!" class="collection-item">Documento</a>
+																		flujo</a> <a href="PlantillaGen?descrip=Proceso Principal-Adquisicion&dirdoc=plantilla_planAuditoria" class="collection-item">Plantilla</a>
 																</div>
 															</div>
 														</li>
@@ -846,7 +846,7 @@
 																<div class="collection">
 																	<a href="#!" class="collection-item">Documento</a> <a
 																		href="#!" class="collection-item">Diagrama de
-																		flujo</a> <a href="#!" class="collection-item">Documento</a>
+																		flujo</a> <a href="PlantillaGen?descrip=Proceso Principal-Adquisicion&dirdoc=plantilla_realizacion" class="collection-item">Plantilla</a>
 																</div>
 															</div>
 														</li>
@@ -859,7 +859,7 @@
 																<div class="collection">
 																	<a href="#!" class="collection-item">Documento</a> <a
 																		href="#!" class="collection-item">Diagrama de
-																		flujo</a> <a href="#!" class="collection-item">Documento</a>
+																		flujo</a> <a href="PlantillaGen?descrip=Proceso Principal-Adquisicion&dirdoc=plantilla_subcontratacion" class="collection-item">Plantilla</a>
 																</div>
 															</div>
 														</li>
@@ -872,7 +872,7 @@
 																<div class="collection">
 																	<a href="#!" class="collection-item">Documento</a> <a
 																		href="#!" class="collection-item">Diagrama de
-																		flujo</a> <a href="#!" class="collection-item">Documento</a>
+																		flujo</a> <a href="PlantillaGen?descrip=Proceso Principal-Adquisicion&dirdoc=plantilla_creacionAcceso" class="collection-item">Plantilla</a>
 																</div>
 															</div>
 														</li>
@@ -901,7 +901,7 @@
 																<div class="collection">
 																	<a href="#!" class="collection-item">Documento</a> <a
 																		href="#!" class="collection-item">Diagrama de
-																		flujo</a> <a href="#!" class="collection-item">Documento</a>
+																		flujo</a> <a href="PlantillaGen?descrip=Proceso Principal-Adquisicion&dirdoc=plantilla_controlProblemas" class="collection-item">Plantilla</a>
 																</div>
 															</div>
 														</li>
@@ -914,7 +914,7 @@
 																<div class="collection">
 																	<a href="#!" class="collection-item">Documento</a> <a
 																		href="#!" class="collection-item">Diagrama de
-																		flujo</a> <a href="#!" class="collection-item">Documento</a>
+																		flujo</a> <a href="PlantillaGen?descrip=Proceso Principal-Adquisicion&dirdoc=plantilla_accionesCorrectivas" class="collection-item">Plantilla</a>
 																</div>
 															</div>
 														</li>
@@ -927,7 +927,7 @@
 																<div class="collection">
 																	<a href="#!" class="collection-item">Documento</a> <a
 																		href="#!" class="collection-item">Diagrama de
-																		flujo</a> <a href="#!" class="collection-item">Documento</a>
+																		flujo</a> <a href="PlantillaGen?descrip=Proceso Principal-Adquisicion&dirdoc=plantilla_accionesPreventivas" class="collection-item">Plantilla</a>
 																</div>
 															</div>
 														</li>
@@ -974,7 +974,7 @@
 																<div class="collection">
 																	<a href="#!" class="collection-item">Documento</a> <a
 																		href="#!" class="collection-item">Diagrama de
-																		flujo</a> <a href="#!" class="collection-item">Documento</a>
+																		flujo</a> <a href="PlantillaGen?descrip=Proceso Principal-Adquisicion&dirdoc=plantilla_recoleccion" class="collection-item">Plantilla</a>
 																</div>
 															</div>
 														</li>
@@ -987,7 +987,7 @@
 																<div class="collection">
 																	<a href="#!" class="collection-item">Documento</a> <a
 																		href="#!" class="collection-item">Diagrama de
-																		flujo</a> <a href="#!" class="collection-item">Documento</a>
+																		flujo</a> <a href="PlantillaGen?descrip=Proceso Principal-Adquisicion&dirdoc=plantilla_asignacion" class="collection-item">Plantilla</a>
 																</div>
 															</div>
 														</li>
@@ -1000,7 +1000,7 @@
 																<div class="collection">
 																	<a href="#!" class="collection-item">Documento</a> <a
 																		href="#!" class="collection-item">Diagrama de
-																		flujo</a> <a href="#!" class="collection-item">Documento</a>
+																		flujo</a> <a href="PlantillaGen?descrip=Proceso Principal-Adquisicion&dirdoc=plantilla_mejoraReq" class="collection-item">Plantilla</a>
 																</div>
 															</div>
 														</li>
@@ -1013,7 +1013,7 @@
 																<div class="collection">
 																	<a href="#!" class="collection-item">Documento</a> <a
 																		href="#!" class="collection-item">Diagrama de
-																		flujo</a> <a href="#!" class="collection-item">Documento</a>
+																		flujo</a> <a href="PlantillaGen?descrip=Proceso Principal-Adquisicion&dirdoc=plantilla_" class="collection-item">Plantilla</a>
 																</div>
 															</div>
 														</li>
@@ -1026,7 +1026,7 @@
 																<div class="collection">
 																	<a href="#!" class="collection-item">Documento</a> <a
 																		href="#!" class="collection-item">Diagrama de
-																		flujo</a> <a href="#!" class="collection-item">Documento</a>
+																		flujo</a> <a href="PlantillaGen?descrip=Proceso Principal-Adquisicion&dirdoc=plantilla_implementacionPlan" class="collection-item">Plantilla</a>
 																</div>
 															</div>
 														</li>
@@ -1039,7 +1039,7 @@
 																<div class="collection">
 																	<a href="#!" class="collection-item">Documento</a> <a
 																		href="#!" class="collection-item">Diagrama de
-																		flujo</a> <a href="#!" class="collection-item">Documento</a>
+																		flujo</a> <a href="PlantillaGen?descrip=Proceso Principal-Adquisicion&dirdoc=plantilla_seguimiento" class="collection-item">Plantilla</a>
 																</div>
 															</div>
 														</li>
@@ -1051,7 +1051,7 @@
 																<div class="collection">
 																	<a href="#!" class="collection-item">Documento</a> <a
 																		href="#!" class="collection-item">Diagrama de
-																		flujo</a> <a href="#!" class="collection-item">Documento</a>
+																		flujo</a> <a href="PlantillaGen?descrip=Proceso Principal-Adquisicion&dirdoc=plantilla_finalizacion" class="collection-item">Plantilla</a>
 																</div>
 															</div>
 														</li>
@@ -1078,7 +1078,7 @@
 																<div class="collection">
 																	<a href="#!" class="collection-item">Documento</a> <a
 																		href="#!" class="collection-item">Diagrama de
-																		flujo</a> <a href="#!" class="collection-item">Documento</a>
+																		flujo</a> <<a href="PlantillaGen?descrip=Proceso Principal-Adquisicion&dirdoc=plantilla_establecimiento" class="collection-item">Plantilla</a>
 																</div>
 															</div>
 														</li>
@@ -1091,7 +1091,7 @@
 																<div class="collection">
 																	<a href="#!" class="collection-item">Documento</a> <a
 																		href="#!" class="collection-item">Diagrama de
-																		flujo</a> <a href="#!" class="collection-item">Documento</a>
+																		flujo</a> <a href="PlantillaGen?descrip=Proceso Principal-Adquisicion&dirdoc=plantilla_evalucionProces" class="collection-item">Plantilla</a>
 																</div>
 															</div>
 														</li>
@@ -1104,7 +1104,7 @@
 																<div class="collection">
 																	<a href="#!" class="collection-item">Documento</a> <a
 																		href="#!" class="collection-item">Diagrama de
-																		flujo</a> <a href="#!" class="collection-item">Documento</a>
+																		flujo</a> <a href="PlantillaGen?descrip=Proceso Principal-Adquisicion&dirdoc=plantilla_mejoraProces" class="collection-item">Plantilla</a>
 																</div>
 															</div>
 														</li>
@@ -1132,7 +1132,7 @@
 																<div class="collection">
 																	<a href="#!" class="collection-item">Documento</a> <a
 																		href="#!" class="collection-item">Diagrama de
-																		flujo</a> <a href="#!" class="collection-item">Documento</a>
+																		flujo</a> <a href="PlantillaGen?descrip=Proceso Principal-Adquisicion&dirdoc=plantilla_necesidadesproces" class="collection-item">Plantilla</a>
 																</div>
 															</div>
 														</li>
@@ -1145,7 +1145,7 @@
 																<div class="collection">
 																	<a href="#!" class="collection-item">Documento</a> <a
 																		href="#!" class="collection-item">Diagrama de
-																		flujo</a> <a href="#!" class="collection-item">Documento</a>
+																		flujo</a> <a href="PlantillaGen?descrip=Proceso Principal-Adquisicion&dirdoc=plantilla_desarrolloMat" class="collection-item">Plantilla</a>
 																</div>
 															</div>
 														</li>
@@ -1158,7 +1158,7 @@
 																<div class="collection">
 																	<a href="#!" class="collection-item">Documento</a> <a
 																		href="#!" class="collection-item">Diagrama de
-																		flujo</a> <a href="#!" class="collection-item">Documento</a>
+																		flujo</a> <a href="PlantillaGen?descrip=Proceso Principal-Adquisicion&dirdoc=plantilla_evaluacionPlanForm" class="collection-item">Plantilla</a>
 																</div>
 															</div>
 														</li>
