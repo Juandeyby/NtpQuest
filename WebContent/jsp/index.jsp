@@ -39,18 +39,18 @@
 		<div class="section">
 
 			<div class="row">
-				<form class="col s12">
+				<form class="col s12" action="verificar" method="post">
 					<div class="row">
 						<div class="input-field col s4 offset-s4">
-							<input id="first_name" type="text" class="validate"> <label
+							<input id="first_name" type="text" name="name" class="validate"> <label
 								for="first_name">Usuario</label>
 						</div>
 						<div class="input-field col s4 offset-s4">
-							<input id="password" type="password" class="validate"> <label
+							<input id="password" type="password" name="password" class="validate"> <label
 								for="password">Contraseña</label>
 						</div>
 						<div class="input-field col s4 offset-s4">
-							<a href="/NtpQuest/registro">Registrarse</a>
+							<a href="registro">Registrarse</a>
 						</div>
 						<div class="input-field col s4 offset-s4">
 							<button class="btn waves-effect waves-light grey darken-1" type="submit"
