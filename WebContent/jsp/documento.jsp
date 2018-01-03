@@ -1112,16 +1112,17 @@
 			<div class="container">
 		<div class="section">
 			<div class="row">
-				<form class="col s12" action="#">
+				<form class="col s12" action="doctopdf" method="post" enctype="multipart/form-data">
 					<h5 class="header col s12 light">Documento: <b>Adquisicion de un sistema</b></h5>
 					<br><br>
 					<div class="file-field input-field">
 						<div class="btn grey darken-1">
-							<span>Importar documento</span> <input type="file">
+							<span>Importar documento</span> <input type="file" name="path">
 						</div>
 						<div class="file-path-wrapper">
 							<input class="file-path validate" type="text">
 						</div>
+						<button class="btn waves-effect waves-light grey darken-1" type="submit">Subir</button>
 					</div>
 					<iframe src="http://docs.google.com/gview?url=http://www.enlataberna.com/lib_lin/Biblia-satanica.pdf&embedded=true" style="width:100%; height:450px;" frameborder="0"> </iframe>
 				</form>
