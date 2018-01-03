@@ -28,7 +28,7 @@
 			<div class="row">
 				<form class="col s6">
 					<div class="row">
-						<h5 class="header col s12 light">Modificar</h5>
+						<h5 class="header col s12 light">Registro</h5>
 						<div class="input-field col s12">
 							<input id="first_name" type="text" class="validate"> <label
 								for="first_name">Nombre de empresa</label>
@@ -50,22 +50,20 @@
 								for="password">Otra vez contraseña</label>
 						</div>
 						<div class="input-field col s12">
-							<button class="btn waves-effect waves-light grey darken-1" type="submit"
-								name="action">Registrar</button>
+							<button class="btn waves-effect waves-light grey darken-1"
+								type="submit" name="action">Registrar</button>
 						</div>
 					</div>
 				</form>
 				<div class="row">
-					<form class="col s6" action="#">
-						<div class="file-field input-field">
-							<div class="btn grey darken-1">
-								<span>Logo</span> <input type="file">
-							</div>
-							<div class="file-path-wrapper">
-								<input class="file-path validate" type="text">
-							</div>
+					<form class="col s2" action="guardarImagen"
+						enctype="multipart/form-data" id="fileUploadForm" method="post">
+						<input type="file" name="uploadFile" /> <br />
+						<br /> <input type="submit"  id="btnSubmit" value="Subir Logo" />
+						<br /><br />
+						<div id="result">
+							
 						</div>
-						<img class="materialboxed" width="250" src="../img/sample-1.jpg">
 					</form>
 				</div>
 			</div>
