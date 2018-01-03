@@ -8,7 +8,14 @@
 <meta name="viewport"
 	content="width=device-width, initial-scale=1, maximum-scale=1.0" />
 <title>Starter Template - Materialize</title>
-
+<script type="text/javascript">
+    $(document).ready(function(){
+        $('input[type="file"]').change(function(e){
+            var fileName = e.target.files[0].name;
+            alert('The file "' + fileName +  '" has been selected.');
+        });
+    });
+</script>
 <!-- CSS  -->
 <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
 	rel="stylesheet">
@@ -26,44 +33,46 @@
 	<div class="container">
 		<div class="section">
 			<div class="row">
-				<form class="col s6">
+				<form class="col s6" action="/NtpQuest/dataRegister" method="post">
 					<div class="row">
-						<h5 class="header col s12 light">Registro</h5>
+						<h5 class="header col s12 light">Modificar</h5>
 						<div class="input-field col s12">
-							<input id="first_name" type="text" class="validate"> <label
+							<input id="enterprise_name" name="enterprise_name" type="text" class="validate"> <label
 								for="first_name">Nombre de empresa</label>
 						</div>
 						<div class="input-field col s12">
-							<input id="first_name" type="text" class="validate"> <label
+							<input id="madurity_level" name="madurity_level" type="text" class="validate"> <label
 								for="first_name">Nivel de madurez</label>
 						</div>
 						<div class="input-field col s12">
-							<input id="first_name" type="text" class="validate"> <label
+							<input id="user" name="user" type="text" class="validate"> <label
 								for="first_name">Usuario</label>
 						</div>
 						<div class="input-field col s12">
-							<input id="password" type="password" class="validate"> <label
+							<input id="password" name="password" type="password" class="validate"> <label
 								for="password">Contraseña</label>
 						</div>
 						<div class="input-field col s12">
-							<input id="password" type="password" class="validate"> <label
+							<input id="password_secure" name="password_secure" type="password" class="validate"> <label
 								for="password">Otra vez contraseña</label>
 						</div>
 						<div class="input-field col s12">
-							<button class="btn waves-effect waves-light grey darken-1"
-								type="submit" name="action">Registrar</button>
+							<button class="btn waves-effect waves-light grey darken-1" type="submit"
+								name="action">Registrar</button>
 						</div>
 					</div>
 				</form>
 				<div class="row">
-					<form class="col s2" action="guardarImagen"
-						enctype="multipart/form-data" id="fileUploadForm" method="post">
-						<input type="file" name="uploadFile" /> <br />
-						<br /> <input type="submit"  id="btnSubmit" value="Subir Logo" />
-						<br /><br />
-						<div id="result">
-							
+					<form class="col s6" action="#">
+						<div class="file-field input-field">
+							<div class="btn grey darken-1">
+								<span>Logo</span> <input type="file" name="rtlvl" >
+							</div>
+							<div class="file-path-wrapper">
+								<input class="file-path validate" type="text">
+							</div>
 						</div>
+						<img class="materialboxed" width="250" src="../img/sample-1.jpg">
 					</form>
 				</div>
 			</div>
