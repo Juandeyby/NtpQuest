@@ -1185,7 +1185,7 @@
 			</div>
 			<div class="row right">
 				<p>adq_sis.doc</p>
-				<a id="descarga" href="docs/<%= request.getAttribute("direccion") %>.docx" class="waves-effect waves-light btn" download>Descargar</a>
+				<a id="descarga" href="doc/<%= request.getAttribute("direccion") %>.docx" class="waves-effect waves-light btn" download>Descargar</a>
 			</div>
 		</div>
 		<br> <br>

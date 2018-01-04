@@ -54,7 +54,7 @@ public class DocToPdf extends HttpServlet {
 	    //String filename = getSubmittedFileName(filePart);
 	    InputStream fileContent = filePart.getInputStream();
 	    
-	    String path = "doc_gen/doc.pdf";
+	    String path = "doc_gen/plantilla_aquisicion.pdf";
 		String realPath = getServletContext().getRealPath(path);
 		System.out.println(realPath);
 		//String pdfPath = "WebContent/evidencia.pdf";

@@ -1194,13 +1194,13 @@
 								<button class="btn waves-effect waves-light grey darken-1"
 									type="submit">Subir</button>
 							</div>
-							<iframe src="doc_gen\doc.pdf" style="width: 100%; height: 450px;"
+							<iframe src="doc_gen/plantilla_aquisicion.pdf" style="width: 100%; height: 450px;"
 								frameborder="0"> </iframe>
 						</form>
 					</div>
 					<div class="row right">
 						<p>doc.pdf</p>
-						<form action="doc_gen\doc.pdf">
+						<form action="doc/plantilla_aquisicion.docx">
 							<button class="btn waves-effect waves-light grey darken-1" type="submit"
 								name="action">
 								Descargar <i class="material-icons right">send</i>

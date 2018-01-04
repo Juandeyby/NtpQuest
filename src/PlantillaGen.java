@@ -50,7 +50,7 @@ public class PlantillaGen extends HttpServlet {
 		String pathGen = "doc_gen/" + direccion + "_user.docx";
 		String realPathGen = getServletContext().getRealPath(pathGen);
 		System.out.println(realPathGen);
-		CrearDocs cd = new CrearDocs(realPathLogo, realPathDocX, realPathGen, "Empresa X");
+		CrearDocs cd = new CrearDocs(realPathLogo, realPathDocX, realPathGen, "UNSA");
 		try {
 			cd.generarDoc();
 		} catch (Exception e) {
